@@ -1,0 +1,186 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FAFAFF; 
+  color: #333;
+}
+
+/* The header */
+header {
+  background-color: #1C1C1C;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  font-family: "Trebuchet", sans-serif;
+  font-size: 26px;
+}
+
+/* Navigation bar */
+nav {
+  background-color: #ECEBE4;
+  padding: 10px;
+}
+
+/* The unordered list */
+nav ul {
+  list-style-type: square;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* The ordered list */
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+/* The navigation items */
+.nav-item {
+  color: white;
+  text-decoration: none;
+}
+
+/* The navigation items when hovered */
+.nav-item:hover {
+  color: #475B63;
+  text-decoration: underline; 
+}
+
+/* The navigation items when visited */
+.nav-item:visited {
+  color: #2E2C2F;
+}
+
+main {
+  padding: 20px;
+}
+
+/* The main content */
+section {
+  padding: 20px;
+}
+
+/* JavaScript Buttons Styles */
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+/* Section Styles */
+#colorSection, #toggleSection {
+  height: 100px;
+  background-color: #ddd;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Ordered list items */
+ol li {
+  margin: 2.5px;
+  padding: 1px;
+  list-style-type: upper-roman;
+}
+
+/* The footer */
+footer {
+  background-color: #1C1C1C;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+footer p:last-child {
+  color: #fff; /* Adjust the color as per your preference */
+}
+
+/* The interests images */
+.skills-img {
+  width: 31.2%; 
+  height: 300px; 
+  object-fit: cover; 
+  margin: 10px;
+  border: 2px solid #02020A;
+}
+
+/* Centering the text */
+.center {
+  text-align: center;
+  align-items: center;
+}
+
+/* Form styling */
+form {
+  background-color: #EEF0F2;
+  border: 2px solid #330044;
+  padding: 20px;
+}
+
+/* Label styling */
+label {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Style for paragraphs */
+p {
+  color: #100C08; /* Adjust the color based on your background */
+  line-height: 1.6; /* Adjust the line height for improved readability */
+}
+
+/* Style the input fields */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 95%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 2px solid #1C1C1C;
+  background-color: #fff;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  background-color: #1C1C1C;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button */
+input[type="submit"]:hover {
+  background-color: #F5FDC6;
+}
+  /* Image Slider Styles */
+#imageSlider {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+#sliderImage {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }

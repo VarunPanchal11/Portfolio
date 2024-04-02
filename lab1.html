@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+  </header>
+
+  <!-- Navigation Section -->
+  <nav class = "center">
+    <ul>
+      <li><a href="#aboutMe" class="nav-item">About Me</a></li>
+      <br>
+      <br>
+      <li><a href="#skills" class="nav-item">Skills</a></li>
+      <br>
+      <br>
+      <li><a href="#contact" class="nav-item">Contact</a></li>
+      <br>
+    </ul>
+  </nav>
+
+  <!-- JavaScript Buttons -->
+  <button id="changeColorButton">Change Background Color</button>
+  <button id="toggleVisibilityButton">Toggle Visibility</button>
+  <div id="colorSection">Section for Background Color Change</div>
+  <div id="toggleSection">Section for Visibility Toggle</div>
+  
+  <main>
+<!-- About Me Section -->
+  <section id="aboutMe">
+    <p>
+      <h2>About Me</h2>
+      <p>
+        My name is Varun Panchal, a 22-year-old student with a keen interest in expanding my knowledge of HTML, CSS and JavaScript.
+        </p>
+        <p>
+        Originally born and raised in New Delhi, India, I made the decision to move to Windsor, Ontario, Canada, where I am currently pursuing a Bachelor's degree in Computer Science.
+      </p>
+      <p>
+        I am enthusiastic about delving deeper into the realms of web development through the study of HTML, CSS and JavaScript, aiming to enhance my skills and contribute meaningfully to the ever-evolving field of technology. 
+      </p>
+      </p>
+    </article>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <article>
+      <h2>Skills</h2> 
+      <ol>
+        <li>Programming Languages: HTML, CSS, JavaScript, Java, Python, C, SQL </li>
+        <br>
+        <li>Operating Systems: Linux, Unix, Windows, MacOS, UML </li>
+        <br>
+        <li>Software Knowledge: Git, VS-Code, Replit, Python IDLE, MS Office, Notepad++ </li>
+      </ol> 
+      <img src="img1.jpg" alt="Random picture"width="200" height="200" class="skills-img"/>
+      <img src="img2.jpg" alt="Random picture" width="200" height="200" class="skills-img"/>
+      <img src="img3.jpg" alt="Random picture" width="200" height="200" class="skills-img"/>
+      <br><br>
+      <h2><a href="https://linkedin.com/in/varun-panchal-888795260" class="nav-item">Visit my LinkedIn for more</a></h2>
+    </article>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <article>
+      <h2>Contact Me</h2>
+      <form id="contactForm" action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <br>
+        <label for="message">Message:</label>
+        <textarea rows ="4" cols = "7" id="message" name="message" required placeholder = "Please add a message"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+    </article>
+  </section>
+  <p>This is a simple web page with a header, a paragraph, and a navigation bar with three links. You can replace this text and customize the links as needed for your webpage.</p>
+
+  <!-- Image Slider -->
+  <div id="imageSlider">
+  <button id="previousButton">Previous</button>
+  <img id="sliderImage" src="1.jpg" alt="Image 1">
+  <p id="imageCaption">Caption for Image 1</p>
+  <button id="nextButton">Next</button>
+  </div>
+  </main>
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Varun Panchal</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
